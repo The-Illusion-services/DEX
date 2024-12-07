@@ -18,14 +18,14 @@ export default function Home() {
   return (
     <>
     
-    <main className="fixed lg:relative flex items-center justify-center top-0 left-0 bottom-0 right-0 z-10 lg:mt-24 mt-20 mb-20">
+    <main className=" lg:relative flex items-center justify-center top-0 left-0 bottom-0 right-0 z-10 lg:mt-24 mt-40 mb-20">
       <section className="bg-[#0D1520] h-[90%] lg:h-[70%] w-[88%] lg:w-[50%] py-5 flex flex-col  items-center justify-between rounded-md">
         <div className="w-full text-center">
           <span className="text-2xl font-medium text-center">Swap</span>
         </div>
 
         <article className="mt-5 w-full flex flex-col justify-between items-center gap-y-4 lg:gap-y-2 text-sm">
-          <div className="border rounded-xl border-[#222222] w-[80%] mx-auto h-[100px] flex flex-col justify-center px-4 gap-y-3">
+          <div className="border rounded-xl border-[#222222] w-[80%] mx-auto h-[100px] flex flex-col justify-center lg:px-4 px-2 gap-y-3">
             <div className="flex justify-between">
               <span>From</span>
               <span>MAX:4.235</span>
@@ -36,12 +36,12 @@ export default function Home() {
                 Sol
                 <FaCaretDown onClick={handleShowModal} className="cursor-pointer"/>
               </span>
-              <input className="bg-[#0D1520] border-[#333333] border rounded-md w-[70%]" />
+              <input className="bg-[#0D1520] h-10 border-[#333333] border rounded-md w-[70%]" />
             </div>
           </div>
           <MdOutlineSwapVert className="text-4xl" />
 
-          <div className="border rounded-xl border-[#222222] w-[80%] mx-auto h-[100px] flex flex-col justify-center px-4 gap-y-3">
+          <div className="border rounded-xl border-[#222222] w-[80%] mx-auto h-[100px] flex flex-col justify-center  lg:px-4 px-2 gap-y-3">
             <div className="flex justify-between">
               <span>To</span>
               <span>EST.OUTPUT</span>
@@ -52,7 +52,7 @@ export default function Home() {
                 usdc
                 <FaCaretDown onClick={handleShowModal} className="cursor-pointer"/>
               </span>
-              <input className="bg-[#0D1520] border-[#333333] border rounded-md w-[70%]" />
+              <input className="bg-[#0D1520] h-10 border-[#333333] border rounded-md w-[70%]" />
             </div>
           </div>
         </article>

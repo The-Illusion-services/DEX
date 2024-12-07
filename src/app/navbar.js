@@ -129,7 +129,7 @@ const Navbar = () => {
         >
           <CiBellOn className="text-3xl"/>
           <IoSettingsOutline className="text-3xl"/>
-          <button className="bg-gradient-to-r from-blue-500 from-10% via-cyan-500 via-50% to-blue-500 to-70% text-black w-full rounded-3xl  h-10 text-sm ">
+          <button className="bg-gradient-to-r from-blue-500 from-10% via-cyan-500 via-50% to-blue-500 to-70% text-black w-full rounded-3xl  h-10 lg:text-sm  text-xs">
             Connect Wallet
           </button>
         </div>
