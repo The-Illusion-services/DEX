@@ -20,7 +20,7 @@ const Modal = () => {
 
   return (
     <section className="fixed z-30 top-0 bottom-0 left-0 right-0 flex items-center justify-center backdrop-blur-sm ">
-      <article className="lg:w-[40%] lg:h-[60%] w-[80%] h-[60%] rounded-md bg-[#090E15]  flex flex-col items-center px-4">
+      <article className="lg:w-[40%] lg:h-[60%] w-[90%] h-[60%] rounded-md bg-[#090E15]  flex flex-col items-center px-4">
         <div className="w-full flex justify-end mt-1">
         <HiMiniXMark className="text-end text-3xl border rounded-md  border-[#2B2B2B] cursor-pointer" onClick={handleShowModal} />
         </div>
